@@ -1,0 +1,4 @@
+//This keys are only for testing purpose
+
+const private = '72a2534872f5257962fc2b3fa8da5cfd5d6be12e7c3910ddacc0d76ec9db6e06';
+const public = '044a5d2c076897858eb59e1b69d77e9af20ad36416f2ac510c506926f4969baeab8e5ebb9dd30926c3a2e17829224570d0921297ed7490a4105c8059003cbabd9f';
