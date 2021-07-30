@@ -1,8 +1,3 @@
-
-/* Simple implementation of a cryptocurrency with blockchain. 
-To activate the program type:  'node main.mjs' in the terminal */
-
-
 const { Blockchain } = require('./blockchain');
 const { Transaction } = require('./transaction');
 const chalk = require('chalk');
