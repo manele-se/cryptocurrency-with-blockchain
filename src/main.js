@@ -6,11 +6,9 @@ const program = require('commander');
 const EC = require('elliptic').ec;
 const ec = new EC('secp256k1');
 
-
 //initialise keys
 const myKey = ec.keyFromPrivate('72a2534872f5257962fc2b3fa8da5cfd5d6be12e7c3910ddacc0d76ec9db6e06');
 const myWalletAddress = myKey.getPublic('hex');
-
 
 program.version('0.0.1').description('Cryptocurrency mining');
 
@@ -22,8 +20,6 @@ program
 const { difficulty, reward } = program.opts()
 //create a new coin
 let eleCoin = new Blockchain(parseInt(difficulty), parseFloat(reward));
-
-
 
 //starting mining and transaction
 console.log('\nStarting mining ...');
